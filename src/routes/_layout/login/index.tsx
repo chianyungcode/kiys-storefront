@@ -50,7 +50,7 @@ const LoginPage = () => {
       </div>
       <div className="relative bg-red-500 rounded-3xl overflow-hidden">
         <img
-          src="/public/images/keyboards.webp"
+          src="/images/keyboards.webp"
           alt="bg-image"
           className="h-[60rem] object-cover "
         />

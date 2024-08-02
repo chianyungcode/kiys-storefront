@@ -36,20 +36,16 @@ function Index() {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <img
-              src="/public/images/keyboards.webp"
-              alt=""
-              className="rounded-2xl"
-            />
+            <img src="/images/keyboards.webp" alt="" className="rounded-2xl" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/public/images/keyboards.webp" alt="" />
+            <img src="/images/keyboards.webp" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/public/images/keyboards.webp" alt="" />
+            <img src="/images/keyboards.webp" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/public/images/keyboards.webp" alt="" />
+            <img src="/images/keyboards.webp" alt="" />
           </SwiperSlide>
         </Swiper>
 

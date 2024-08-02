@@ -139,7 +139,7 @@ const ProductDetailsPage = () => {
             <div className="overflow-hidden rounded-3xl">
               <div className="aspect-square">
                 <img
-                  src={data.images?.[0]?.url || "/public/images/image.webp"}
+                  src={data.images?.[0]?.url || "/images/image.webp"}
                   alt="product-image-1"
                   className="w-full h-full object-cover"
                 />
@@ -150,7 +150,7 @@ const ProductDetailsPage = () => {
                 data.images.map((image: Image) => (
                   <div className="overflow-hidden rounded-lg">
                     <img
-                      src={image.url || "/public/images/image.webp"}
+                      src={image.url || "/images/image.webp"}
                       alt=""
                       className="w-full h-full object-cover"
                     />

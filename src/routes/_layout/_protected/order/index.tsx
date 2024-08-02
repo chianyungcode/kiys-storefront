@@ -36,7 +36,7 @@ const OrderPage = () => {
         <div className="flex flex-grow py-4 flex-col gap-y-8">
           {[1, 2].map((_, index) => (
             <div key={index} className="flex gap-x-6 w-full">
-              <img src="/public/images/image.webp" alt="" className="h-32" />
+              <img src="/images/image.webp" alt="" className="h-32" />
               <div className="flex-col justify-between space-y-4 w-full">
                 <div className="flex justify-between">
                   <h1 className="font-medium font-sora">Kiys SK931</h1>

@@ -23,7 +23,7 @@ const PopoverCart = () => {
       >
         <div className="flex gap-x-4">
           <img
-            src="/public/images/image.webp"
+            src="/images/image.webp"
             className="h-[108px] rounded-md self-center"
           />
           <div className="space-y-4 font-sora">
