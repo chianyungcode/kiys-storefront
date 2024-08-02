@@ -29,12 +29,7 @@ function Index() {
     <div className="relative bg-[#FDFEFE]">
       <Navbar />
       <Container className="space-y-20">
-        <Swiper
-          spaceBetween={50}
-          slidesPerView={1}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
-        >
+        <Swiper spaceBetween={50} slidesPerView={1}>
           <SwiperSlide>
             <img src="/images/keyboards.webp" alt="" className="rounded-2xl" />
           </SwiperSlide>

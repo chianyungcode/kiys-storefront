@@ -3,7 +3,7 @@ import { notFound } from "@tanstack/react-router";
 export const fetchCategories = async () => {
   try {
     const response = await fetch(
-      `${import.meta.env.VITE_BACKEND_URL}/api/categories`
+      `${import.meta.env.VITE_BACKEND_URL}/categories`
     );
 
     if (!response.ok) throw notFound();
