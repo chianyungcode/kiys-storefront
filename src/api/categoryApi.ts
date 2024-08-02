@@ -22,7 +22,7 @@ export const fetchCategories = async () => {
 export const fetchCategory = async (slug: string) => {
   try {
     const response = await fetch(
-      `${import.meta.env.VITE_BACKEND_URL}/api/categories/${slug}`
+      `${import.meta.env.VITE_BACKEND_URL}/categories/${slug}`
     );
 
     if (!response.ok) throw notFound();
